@@ -1,0 +1,33 @@
+{
+  "_comment": "문항 2 출력 형식 예시입니다. 값은 모두 가상이며 실제 데이터의 정답이 아닙니다. patients의 예시는 완성된 리소스의 형태를 보여주고, visits·prescriptions의 예시는 구조만 보여줍니다 — (괄호) 부분은 여러분이 선택한 FHIR 리소스에 맞게 채우세요. 제출 파일에 _comment 키는 없어도 됩니다.",
+  "patients": [
+    {
+      "resourceType": "Patient",
+      "id": "patient-0",
+      "identifier": [
+        {
+          "system": "https://example.org/fhir/identifier/patient-id",
+          "value": "0"
+        }
+      ],
+      "gender": "female",
+      "birthDate": "1970-01-01"
+    }
+  ],
+  "visits": [
+    {
+      "resourceType": "(선택한 리소스 타입)",
+      "id": "visit-100",
+      "(환자를 참조하는 필드)": { "reference": "Patient/patient-0" },
+      "(그 밖의 필드)": "선택한 리소스의 정의에 맞게 원천 정보를 담으세요"
+    }
+  ],
+  "prescriptions": [
+    {
+      "resourceType": "(선택한 리소스 타입)",
+      "id": "prescription-0",
+      "(환자를 참조하는 필드)": { "reference": "Patient/patient-0" },
+      "(내원을 참조하는 필드)": { "reference": "(선택한 리소스 타입)/visit-100" }
+    }
+  ]
+}
