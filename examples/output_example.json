@@ -27,7 +27,8 @@
       "resourceType": "(선택한 리소스 타입)",
       "id": "prescription-0",
       "(환자를 참조하는 필드)": { "reference": "Patient/patient-0" },
-      "(내원을 참조하는 필드)": { "reference": "(선택한 리소스 타입)/visit-100" }
+      "(내원을 참조하는 필드)": { "reference": "(선택한 리소스 타입)/visit-100" },
+      "(그 밖의 필드)": "선택한 리소스의 정의에 맞게 원천 정보를 담으세요"
     }
   ]
 }
