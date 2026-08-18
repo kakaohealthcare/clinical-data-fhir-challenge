@@ -39,7 +39,6 @@
 | `start_at` | 내원 시작 시각 (`YYYY-MM-DD HH:MM:SS`, 시간대는 한국 표준시 `+09:00`) |
 | `end_at` | 내원 종료 시각 (`YYYY-MM-DD HH:MM:SS`, 시간대는 한국 표준시 `+09:00`) |
 | `visit_type` | 내원 유형 — `OUTPATIENT`(외래), `EMERGENCY`(응급), `INPATIENT`(입원) |
-| `department` | 진료과 (병원 내부 표시명) |
 
 ### `prescriptions.csv`
 
