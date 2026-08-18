@@ -13,6 +13,7 @@
 │   └── prescriptions.csv   # 처방·오더 기록
 ├── examples/
 │   └── output_example.json # 문항 2 출력 형식 예시 (가상 값)
+├── fhir-quick-reference.md # FHIR R4 주요 리소스·타입 요약 (시간 절약용)
 └── NOTICE-MIMIC.md
 ```
 
@@ -65,3 +66,4 @@
 ## 참고
 
 - FHIR R4 리소스 목록: https://hl7.org/fhir/R4/resourcelist.html
+- FHIR R4 주요 리소스·타입 요약: [fhir-quick-reference.md](fhir-quick-reference.md)
