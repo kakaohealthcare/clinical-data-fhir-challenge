@@ -48,8 +48,8 @@
 | `prescription_id` | 처방 행 식별자 |
 | `patient_id` | 처방 대상 환자 |
 | `visit_id` | 처방과 연결된 내원 |
-| `start_date` | 처방 유효 시작일 (`YYYY-MM-DD`) |
-| `end_date` | 처방 유효 종료일 (`YYYY-MM-DD`) |
+| `start_date` | 투여 시작일 (`YYYY-MM-DD`) — 이 처방이 **지시하는** 투여 기간의 시작 |
+| `end_date` | 투여 종료일 (`YYYY-MM-DD`) |
 | `drug_code` | 병원 내부(local formulary) 약물 코드 |
 | `drug_name` | 약물 표시명 (일반명 또는 상품명, 규격 포함 가능) |
 | `status` | 처방 상태 (병원 내부 구분값) |

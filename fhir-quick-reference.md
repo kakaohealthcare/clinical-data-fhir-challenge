@@ -70,8 +70,9 @@
 | `encounter` | Reference(Encounter) | 0..1 | 연관된 내원 |
 | `authoredOn` | dateTime | 0..1 | 처방 작성 시각 |
 | `requester` | Reference | 0..1 | 처방자 |
-| `dosageInstruction` | Dosage | 0..\* | 용법 |
-| `dispenseRequest.validityPeriod` | Period | 0..1 | 처방 유효 기간 |
+| `dosageInstruction` | Dosage | 0..\* | 용법 지시 (용량·경로·시기 등) |
+| `dosageInstruction[].timing.repeat.boundsPeriod` | Period | 0..1 | 지시된 투여 기간 |
+| `dispenseRequest.validityPeriod` | Period | 0..1 | 처방전의 조제 유효 기간 (stale date) |
 
 ## MedicationAdministration — 약물의 실제 투여 기록
 
