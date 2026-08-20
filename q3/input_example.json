@@ -1,0 +1,18 @@
+{
+  "items": [
+    { "id": "e", "name": "맥박", "priority": 1 },
+    { "id": "b", "name": "혈당 수치", "priority": 1 },
+    { "id": "A", "name": "혈당", "priority": 2 },
+    { "id": "F", "name": "걸음 수", "priority": 3 },
+    { "id": "C", "name": "글루코스", "priority": 1 },
+    { "id": "D", "name": "심박수", "priority": 2 }
+  ],
+  "sameAs": [
+    ["b", "C"],
+    ["A", "b"],
+    ["b", "A"],
+    ["A", "A"],
+    ["A", "b"],
+    ["D", "e"]
+  ]
+}
