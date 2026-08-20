@@ -17,7 +17,7 @@
 │   ├── fhir-quick-reference.md # FHIR R4 주요 리소스·타입 요약 (시간 절약용)
 │   └── NOTICE-MIMIC.md
 └── q3/                         # 문항 3 관련 파일
-    └── input_example.json      # 문항 3 입력 형식 예시 (가상 값)
+    └── input.json              # 문항 3 입력 형식 예시 (가상 값)
 ```
 
 ## 데이터 설명 (문항 1·2)
