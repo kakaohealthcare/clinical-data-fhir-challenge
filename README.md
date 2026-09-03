@@ -7,23 +7,23 @@
 ## 구성
 
 ```text
-├── q1-q2/                      # 문항 1·2 관련 파일
-│   ├── data/
-│   │   ├── patients.csv        # 환자 기본 정보
-│   │   ├── visits.csv          # 내원·입원 기록
-│   │   └── prescriptions.csv   # 처방·오더 기록
-│   ├── examples/
-│   │   └── output_example.json # 문항 2 출력 형식 예시 (가상 값)
-│   ├── fhir-quick-reference.md # FHIR R4 주요 리소스·타입 요약 (시간 절약용)
-│   └── NOTICE-MIMIC.md
-└── q3/                         # 문항 3 관련 파일
-    └── input.json              # 문항 3 입력 형식 예시 (가상 값)
+├── q1/                         # 문항 1 관련 파일
+│   └── input.json              # 문항 1 입력 형식 예시 (가상 값)
+└── q2-q3/                      # 문항 2·3 관련 파일
+    ├── data/
+    │   ├── patients.csv        # 환자 기본 정보
+    │   ├── visits.csv          # 내원·입원 기록
+    │   └── prescriptions.csv   # 처방·오더 기록
+    ├── examples/
+    │   └── output_example.json # 문항 3 출력 형식 예시 (가상 값)
+    ├── fhir-quick-reference.md # FHIR R4 주요 리소스·타입 요약 (시간 절약용)
+    └── NOTICE-MIMIC.md
 ```
 
-## 데이터 설명 (문항 1·2)
+## 데이터 설명 (문항 2·3)
 
 이 데이터는 MIMIC-III 임상 데이터베이스의 테이블 관계를 참고해 만든 **교육·평가용 fixture**이며, 실제 환자 데이터가 아닙니다.  
-자세한 출처는 [NOTICE-MIMIC.md](q1-q2/NOTICE-MIMIC.md)를 참고하세요.
+자세한 출처는 [NOTICE-MIMIC.md](q2-q3/NOTICE-MIMIC.md)를 참고하세요.
 
 ### `patients.csv`
 
@@ -68,4 +68,4 @@
 ## 참고
 
 - FHIR R4 리소스 목록: https://hl7.org/fhir/R4/resourcelist.html
-- FHIR R4 주요 리소스·타입 요약: [fhir-quick-reference.md](q1-q2/fhir-quick-reference.md)
+- FHIR R4 주요 리소스·타입 요약: [fhir-quick-reference.md](q2-q3/fhir-quick-reference.md)
